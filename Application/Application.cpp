@@ -13,6 +13,7 @@ int CoolClass::Calc(int a, int b)
 {
     if (a == b)
     {
+        int c = -1;
         return 2 * a;
     }
     else
